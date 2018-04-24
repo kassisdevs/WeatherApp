@@ -1,0 +1,47 @@
+.container {
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.weather-box {
+  padding: 55px;
+  margin-right: 40px;
+}
+.weather-box img {
+  width: 75px;
+  height: auto;
+}
+.winds-box {
+  background-color: #f7f6f5;
+  padding: 55px;
+}
+#temp {
+  font-size: 45px;
+  color: #1f384d;
+}
+#feel {
+  font-size: 24px;
+  color: #999;
+}
+#weather {
+  display: inline;
+  font-size: 24px;
+  color: #1f384d;
+  font-weight: 700;
+}
+#location {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #1f384d;
+  font-weight: 700;
+}
+#wind_string {
+  font-size: 14px;
+  color: #1f384d;
+  font-weight: 700;
+}
+#relative_humidity, #wind_mph, #dewpoint_f {
+  font-size: 18px;
+  font-weight: 400;
+}
